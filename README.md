@@ -1,33 +1,47 @@
-# ✉️ AeroSend – Smart Email Scheduler
+# 🧪 ChemAware — Everyday Chemical Awareness Web App
 
-AeroSend is a sleek and modern **email scheduling interface** built with **React** and **Chakra UI**.  
-It features a **frosted glass design**, elegant transitions, and an intuitive workflow for scheduling, editing, or cancelling emails.  
-
-This project focuses on **clean UI/UX design**, **component reusability**, and **state-driven logic** for handling mail scheduling in real-time.
+ChemAware is an educational web application designed to help users understand the **presence, uses, and effects of common chemicals** found in household and personal care products.  
+The project promotes **awareness, safe usage**, and **environmentally responsible choices** through a clean, interactive, and informative user interface.
 
 ---
 
-## 🚀 Features
-
-- 🕒 **Smart Mail Scheduling** – Pick a custom date and time to send your emails later.  
-- 🧊 **Frosted Glass UI** – Modern glassmorphism with soft shadows and blurred backgrounds.  
-- 📬 **Status Awareness** – Instantly shows whether a mail is scheduled, sent, or pending.  
-- 🗑️ **Cancel Schedule** – Delete scheduled emails using an interactive Trash Pill component.  
-- 🌈 **Responsive & Minimal** – Optimized for all screen sizes and clean presentation.  
+## 🌍 Live Demo
+🔗 [Coming Soon or Add your deployment link here]
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 **Project Objectives**
+- Educate users about everyday chemicals in a simple and engaging way  
+- Encourage environmentally responsible decisions  
+- Provide real-time data using an API for detailed product or chemical info  
+- Support search, filters, and product details in a friendly UI  
+
+---
+
+## 🧩 **Key Features**
+
+✅ **Searchable Chemical Library** — quickly find chemicals by name  
+✅ **Eco-Friendly Filter** — show only environment-safe products  
+✅ **Detailed Info Modal** — see uses, effects, and safety tips  
+✅ **Dynamic Product Data** — includes 30+ common chemicals  
+✅ **API Integration** — fetches missing or new product info automatically  
+✅ **Responsive Design** — works smoothly on all devices  
+✅ **Attractive UI/UX** — clean visuals and simple navigation  
+✅ **Data Awareness Focused** — educates instead of overwhelming users  
+
+---
+
+## 🧠 **Technologies Used**
 
 | Technology | Purpose |
 |-------------|----------|
-| **React (TypeScript)** | Core front-end framework |
-| **Chakra UI** | Component library and design system |
-| **Day.js** | Date and time formatting |
-| **React Icons** | Iconography (for Send, Trash, etc.) |
-| **Framer Motion (optional)** | Smooth animations and transitions |
+| **HTML5** | Structure and layout |
+| **CSS3 (Flexbox, Grid)** | Styling and responsive design |
+| **JavaScript (ES6)** | Dynamic behavior and logic |
+| **Day.js** | Date formatting and time-related features |
+| **Fetch API / REST API** | Load chemical/product data dynamically |
+| **JSON** | Store and manage local data for chemicals |
 
 ---
 
-## 📂 Folder Structure
-
+## 🗂️ **Folder Structure**
