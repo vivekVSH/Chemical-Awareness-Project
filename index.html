@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ChemAware — Extended</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>ChemAware</h1>
+      <p class="subtitle">Everyday chemicals & product details — learn safe and eco-friendly choices</p>
+    </div>
+  </header>
+
+  <section class="controls">
+    <div class="left-controls">
+      <input id="search" placeholder="Search chemicals or product names..." />
+      <select id="sortSelect" title="Sort">
+        <option value="name">Sort: Name</option>
+        <option value="hazard">Sort: Hazard (High → Low)</option>
+        <option value="source">Sort: Source (Local → API)</option>
+      </select>
+
+      <label class="checkbox">
+        <input id="ecoFilter" type="checkbox" /> Eco-friendly only
+      </label>
+    </div>
+
+    <div class="right-controls">
+      <button id="showFavoritesBtn" class="ghost">Favorites (<span id="favCount">0</span>)</button>
+      <button id="compareBtn" class="primary">Compare</button>
+    </div>
+  </section>
+
+  <main>
+    <div id="productList" class="grid"></div>
+
+    <div class="pager" id="pager">
+      <button id="prevPage">Prev</button>
+      <span id="pageInfo">Page 1</span>
+      <button id="nextPage">Next</button>
+    </div>
+  </main>
+
+  <!-- Details Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Compare Tray -->
+  <div id="compareTray" class="compare-tray hidden">
+    <h3>Compare (select up to 2)</h3>
+    <div id="compareList" class="compare-list"></div>
+    <div class="compare-actions">
+      <button id="clearCompare" class="ghost">Clear</button>
+      <button id="doCompare" class="primary">Show Comparison</button>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <small>© 2025 ChemAware — educational demo. Some product details fetched from DummyJSON for demo purposes.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
